@@ -1,7 +1,7 @@
 {
 	"name": "request_header",
 	"version": "0.0.1",
-	"description": "API project for freeCodeCamp",
+	"description": "API project for freeCodeCamp that present clint ip adress , language and  software; ",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
@@ -11,6 +11,11 @@
 		"cors": "^2.8.1",
 		"dotenv": "^8.2.0"
 	},
+	"auther":{
+		"name" : "mohamed mostafa elsayed hella",
+		"E_mail":"mohamedmostafa6198@gmail.com",
+		"country":"egypt"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://hyperdev.com/#!/project/welcome-project"
@@ -18,7 +23,11 @@
 	"keywords": [
 		"node",
 		"hyperdev",
-		"express"
+		"express",
+		"freeCodeCamp",
+		"train",
+		"js",
+		"request_header_pareser_microserves"
 	],
 	"license": "MIT"
 }

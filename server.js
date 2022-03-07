@@ -25,6 +25,16 @@ app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
 
+app.get("/api/whoami",(req,res)=>{
+
+  // req.header => contean very match clint data like what we need the language and the user agent;
+  // console.log(req.headers); 
+  res.json({"ipaddress":req.ip ,
+            "language":req.headers["accept-language"],
+           "software":req.headers["user-agent"]});
+  res.status(200);
+});
+
 
 
 // listen for requests :)
