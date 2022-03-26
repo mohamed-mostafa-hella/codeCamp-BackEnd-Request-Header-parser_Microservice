@@ -12,11 +12,6 @@
 - A request to /api/whoami should return a JSON object with your software in the software key.
 
 
-## Note:
-
-- .env file contain => [PORT] 
-
-
 #### contact :
  - E_mail : mohamedmostafa6198@gmail.com
  - linkid_in : https://www.linkedin.com/in/mohamed-hella/
